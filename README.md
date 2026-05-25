@@ -245,7 +245,7 @@ def main():
     servicios = []
 
     ejecutar_operacion(1, "Registrar cliente válido", lambda: clientes.append(
-        Cliente("C001", "Juan Pérez", "123456789", "juan@gmail.com")
+        Cliente("C001", "Jhon Edwin Criollo Diaz", "120367387", "jhon@gmail.com")
     ) or "Cliente registrado correctamente.")
 
     ejecutar_operacion(2, "Registrar cliente con documento inválido", lambda:
